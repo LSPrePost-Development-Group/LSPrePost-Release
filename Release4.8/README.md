@@ -41,51 +41,31 @@
 
 ### New keywords
 
-* CONTROL_EXPLICIT_THERMAL_OUTPUT
-* CONTROL_EXPLICIT_THERMAL_SOLVER
-* CONTROL_ACOUSTIC
-* CONTROL_FORMING_TRIMMING_SOLID_REFINEMENT
-* CONTROL_MPP_PFILE
-* CONTACT_AUTOMATIC_SINGLE_SURFACE_TIEBREAK
-* CONTACT_AUTOMATIC_GENERAL_TIEBREAK
-* CONTACT_AUTOMATIC_SINGLE_SURFACE_TIEBREAK_BEAM_OFFSET
-* CONTACT_AUTOMATIC_GENERAL_TIEBREAK_BEAM_OFFSET
-* CONSTRAINED_SOLID_IN_SOLID_{OPTION1}_{OPTION2}
-* CONSTRAINED_IMMERSED_IN_SPG
-* DATABASE_PBLAST_SENSOR
-* ICFD_BOUNDARY_PERIODIC
-* IGA_options
-* INITIAL_STRAIN_SHELL_NURBS_PATCH
-* INITIAL_STRESS_SHELL_NURBS_PATCH
-* MAT_296
-* MAT_291
-* MAT_187_LIGHT
-* PART_COMPOSITE_LONG_CONTACT
-* SECTION_IGA_SHELL
-* SECTION_IGA_SOLID
-* SET_IGA_EDGE_{OPTION1}_{OPTION2}_{OPTION3}_
-* SET_IGA_FACE_{OPTION1}_{OPTION2}_{OPTION3}
-* SET_IGA_POINT_UVW_{OPTION1}_{OPTION2}
-* EM_CONTACT_SUBDOM
-* EM_BOUNDARY_PRESCRIBED
-* EM_CONTROL_COUPLING
-* EM_CONTROL_SOLUTION
-* EM_RANDLES_EXOTHERMIC_REACTION
-* EM_RANDLES_EXOTHERMIC_REACTION
-* EM_EP_CELLMODEL_FENTONKARMA
-* EM_EP_CELLMODEL_FITZHUGHNAGUMO
-* EM_EP_CELLMODEL_FITZHUGHNAGUMO
-* EM_CONTROL(updated)
-* EM_ISOPOTENTIAL(updated)
-* EM_MAT_001(updated)
-* EM_MAT_001(updated)
-* EM_MAT_006(updated)
-* EM_RANDLES_MESHLESS(updated)
-* EM_RANDLES_BATMAC(updated)
-* EM_RANDLES_TSHELL(updated)
-* EM_RANDLES_TSHELL(update)
+**233 new keywords** have been added into LS-PrePost4.8. some of them has been added into LS-PrePost4.7. A lot of keyword have been updated. 
 
-### Keyword Reading
+Four keyword groups have been added
+
+* **BATTERY**
+
+  The keyword *BATTERY provides input data for the electrochemistry solver
+
+* **COSIM**
+
+  The keyword *COSIM allows LS-DYNA to co-simulate with other software. Currently, co-simulation only works through the functional mock-up interface (FMI). 
+
+* **DUALCESE**
+
+  The keyword *DUALCESE provides input data for the dual Conservation Element/Solution Element (dual CESE) compressible fluid solver.
+
+* **IGA**
+
+  The *IGA keywords set up and control the isogeometric-related capabilities of LS-DYNA.
+
+New keyword see [NewKeyword.pdf](https://github.com/LSPrePost-Development-Group/LSPrePost-Release/tree/master/Release4.8/NewKeyword.pdf)
+
+
+
+### Keyword Reading 
 
 1. speed up of reading keyword file by improve the process of remove space characters of each line.
 2. speed up the process of include transform, especially for model which has too many *include_transform subsystems.
