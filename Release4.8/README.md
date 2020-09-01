@@ -61,7 +61,7 @@ Four keyword groups have been added
 
   The *IGA keywords set up and control the isogeometric-related capabilities of LS-DYNA.
 
-New keyword see [NewKeyword.pdf](https://github.com/LSPrePost-Development-Group/LSPrePost-Release/tree/master/Release4.8/NewKeyword.pdf) or [newkeyword.md](https://github.com/LSPrePost-Development-Group/LSPrePost-Release/tree/master/Release4.8/newkeyword.md)
+New keyword see [NewKeyword.pdf](https://github.com/LSPrePost-Development-Group/LSPrePost-Release/tree/master/Release4.8/NewKeyword.pdf) or [newkeyword.md](https://github.com/LSPrePost-Development-Group/LSPrePost-Release/tree/master/Release4.8/newkeyword.md).
 
 
 
