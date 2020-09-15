@@ -30,6 +30,7 @@
 
 6. Add “Sweep Mode” in Curve->Middle Curve->Axis of Pipe to extract axis from FEM parts using sweeping algorithm.
 
+7. Add .dxf file importing in Curve->Convertor->From DXF/VDA. It will extract curves from .dxf files.
 
 
 
